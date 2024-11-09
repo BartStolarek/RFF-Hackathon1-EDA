@@ -1,5 +1,13 @@
-,Artist,Url_spotify,Track,Album,Album_type,Uri,Url_youtube,Title,Channel,Description,Licensed,official_video
-count,20718,20718,20718,20718,20718,20718,20248,20248,20248,19842,20248,20248
-unique,2079,2079,17841,11937,3,18862,18154,18146,6714,17394,2,2
-top,SICK LEGEND,https://open.spotify.com/artist/3EYY5FwDkHEYLw5V86SAtl,El Ultimo Adiós - Varios Artistas Version,Greatest Hits,album,spotify:track:0tzixmHNQfE6S6SirSToxW,https://www.youtube.com/watch?v=GqOvxbFLwjY,Color Esperanza 2020 - Various Artists (Official Video),T-Series, ,True,True
-freq,10,10,24,30,14926,24,18,18,238,114,14140,15723
+,count,unique,top,freq
+Artist,20718,2079,SICK LEGEND,10
+Url_spotify,20718,2079,https://open.spotify.com/artist/3EYY5FwDkHEYLw5V86SAtl,10
+Track,20718,17841,El Ultimo Adiós - Varios Artistas Version,24
+Album,20718,11937,Greatest Hits,30
+Album_type,20718,3,album,14926
+Uri,20718,18862,spotify:track:0tzixmHNQfE6S6SirSToxW,24
+Url_youtube,20248,18154,https://www.youtube.com/watch?v=GqOvxbFLwjY,18
+Title,20248,18146,Color Esperanza 2020 - Various Artists (Official Video),18
+Channel,20248,6714,T-Series,238
+Description,19842,17394, ,114
+Licensed,20248,2,True,14140
+official_video,20248,2,True,15723
