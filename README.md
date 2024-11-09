@@ -70,6 +70,12 @@ Discord # Resources channel is also a good place for resources
 
 Feel free to ask for help from your team members, the markers, or the wider community, but do try to solve your challenge on your own first. 
 
+---
+
+## **Tools**
+
+You can use any tools you like to solve the challenge. Remember, the goal is to learn. I advise the tools and the use of them should mirror what you would use in a real-world scenario.
+
 ## 🛠️ Instructions
 
 ### 0. **Preparation**
