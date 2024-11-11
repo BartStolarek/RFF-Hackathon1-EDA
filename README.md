@@ -14,11 +14,13 @@ The basic explanation of EDA is that it is the process of examining and visualiz
 I encourage you to do your own research of what EDA is, and how to present it. 
 
 A good EDA would include the following + your interpretation of what you're seeing for each:
-- Summary statistics
-- Data visualisations
-- Correlation analysis
-- Data cleaning and preprocessing
-- Feature Engineering
+- Data Exploration
+    - Summary statistics
+    - Data visualisations
+    - Correlation analysis
+- Data Engineering
+    - Data cleaning and preprocessing
+    - Feature Engineering
 
 ---
 
@@ -93,7 +95,7 @@ You can use any tools you like to solve the challenge. Remember, the goal is to 
 - Save the dataset in the `data/` folder. (This folder is excluded from Git using `.gitignore`.). I will hunt you down if you commit the data to the repository. 😈
 
 ### 3. Solve the Challenge
-Answer the following questions:
+Answer the following questions (deliverables and evaluation criteria are in the next section):
 
 **Essential EDA Questions** (Start with these)
 1. What are the basic statistics of the dataset? (number of songs, artists, etc.)
@@ -119,20 +121,31 @@ Answer the following questions:
 Deliver your deliverables by pushing your branch to the online repository (origin).
 
 1. Code, which should be well commented and follow standard coding practices.
-2. Your EDA analysis, either in a report pdf or commented in to your code, whatever is easiest.
-3. A .md file with any comments or notes you want to submit, call it `NOTES.md`.
+2. Your EDA analysis, either in a report pdf, notebook or commented in to your code, whatever is easiest.
+3. A .md file with any comments, how to run your code and/or notes you want to submit, call it `NOTES.md`.
 
 ## 🔍 Evaluation Criteria
 
-Since this is a hackathon it is still competitive and I think a ranking system to determine the system is fair. For each criteria item below your group will be assigned a rank from 1st to last.
+Since this is a hackathon it is still competitive and I think a ranking system to determine the system is fair. For each criteria item below your group will be assigned a rank from 1st to last, it is possible to tie on a rank.
 
 Your criteria ranks will be added up and the group with the lowest rank (closest to 1) will be the winner. 
 
 - Clarity of code adherence of coding standards and well thoughout structure/architecture
 - Completeness of answering the above questions
-- Creativity in feature engineering
+- Utility in feature engineering
 - Quality of visualizations
 - Completeness of data cleaning
+
+For example, your group might get rankings of:
+| Criteria | Rank |
+|----------|------|
+| Clarity of code | 1 |
+| Completeness of answering the above questions | 4 |
+| Utility in feature engineering | 5 |
+| Quality of visualizations | 2 |
+| Completeness of data cleaning | 2 |
+
+So your final rank/score will be = 1 + 4 + 5 + 2 + 2 = 14, if that is the best score, you group wins!.
 
 
 ## 🏆 Prizes
