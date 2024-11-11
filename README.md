@@ -4,7 +4,7 @@ Welcome to the **Spotify EDA Hackathon**! This is the first challenge in our lea
 
 ## Due Date:
 
-**Monday, 25th November 2024 11:59 PM UTC**  
+**Monday, 2nd December 2024 11:59 PM UTC**  
 _Using UTC time to make sure everyone is on the same page, and the due date is after the weekend for everyone_
 
 ## Exploratory Data Analysis (EDA)
