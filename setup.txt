@@ -1,0 +1,17 @@
+Link to Download Dataset: https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube?resource=download
+
+----------------------
+
+Repository Setup:
+
+git init
+git remote add origin https://github.com/BartStolarek/RFF-Hackathon1-EDA.git
+git pull origin mei
+
+----------------------
+
+Environment Setup:
+
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install -r requirements.txt
