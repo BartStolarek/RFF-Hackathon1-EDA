@@ -103,7 +103,6 @@ Answer the following questions (deliverables and evaluation criteria are in the 
 3. What are the top 10 most streamed songs on Spotify in the dataset?
 4. What are the top 10 most viewed music videos on YouTube?
 5. Is there a correlation any noteable correlation between features?
-6. There are 28 features, if you were to try and predict the perfect recipe for a hit song, which features would you use and why?
 
 **Data Cleaning**
 1. How many missing values are there in each column?
