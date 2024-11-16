@@ -2,6 +2,10 @@ import pandas as pd
 import numpy as np
 import shutil
 from tabulate import tabulate
+from report_writer import ReportWriter
+
+# Initalise the report writer
+report = ReportWriter('report.txt')
 
 
 def print_space():
@@ -33,15 +37,20 @@ Part 1: Summary statistics
 """
 
 print("Exploratory Data Analysis of Spotify and Youtube Dataset")
+report.add_title("Exploratory Data Analysis of Spotify and Youtube Dataset")
 print("Part 1: Summary Statistics")
+report.add_title("Part 1: Summary Statistics")
 print_space()
+report.add_space()
 
 # Load Dataset
 raw_dataset = pd.read_csv('data/Spotify_Youtube.csv')
 
 # Shape and size
 print(f"Dataset shape has {raw_dataset.shape[0]} rows and {raw_dataset.shape[1]} columns")
+report.add_text(f"Dataset shape has {raw_dataset.shape[0]} rows and {raw_dataset.shape[1]} columns")
 print_space()
+report.add_space()
 
 # Set display options
 pd.set_option('display.max_columns', None)
@@ -49,22 +58,31 @@ pd.set_option('display.max_columns', None)
 # View first few rows
 print('First Few Rows:')
 print(raw_dataset.head())
+report.add_dataframe(raw_dataset.head())
 print_space()
+report.add_space()
 
 print('Last Few Rows:')
 print(raw_dataset.tail())
+report.add_dataframe(raw_dataset.tail())
 print_space()
+report.add_space()
 
 # Get column names and data types
 print('Column Names and Data Types:')
 print(raw_dataset.info())
+report.add_info(raw_dataset.info())
 print_space()
+report.add_space()
 
 # Memory usage
 print(f"Memory usage: {raw_dataset.memory_usage().sum()} bytes")
+report.add_text(f"Memory usage: {raw_dataset.memory_usage().sum()} bytes")
 print_space()
+report.add_space()
 
 print_break()
+report.add_break()
 
 # Descriptive statistics
 
