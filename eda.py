@@ -232,6 +232,24 @@ for column in numerical_columns:
     create_histogram_and_boxplot_pair(column)
     
 
+#############################################
+# Assessment
+#############################################
+
+print("Assessment of Part 2: Data Visualisation")
+print("Histograms & Boxplots:")
+print("Acousticness - The historgram is right skewed, with more songs having less acousticness, favouring electronic/synthesised sounds. The box plot reflects similar, with a lot of outliers to the higher half of acousticness")
+print("Comments - Extremely right skewed, with most songs having 0 comments. This might need to be reviewed because it is counter intuitive")
+print("Danceability - slight left skew, but decent normal distribution, with some outliers lower than 0.2")
+print("Duration - heavily right skewed, without the outliers, the distribution would be much more normal")
+print("Energy - slight left skew, with outliers below 0.1, would still have a slight left skew without those outliers, but fairly normal distribution")
+print("Instrumentalness - extremely right skewed, can't even see anything, a lot of outliers will need to be removed")
+print("Key - fairly uniform distribution")
+print("Likes - similar situation as commets, this again is counter intuitive and will need exploration")
+print("Liveness - right skewed, with outliers starting from 50% of the range and above, some transformation might be needed here")
+
+
+
 
 """
 Part 3: Correlation Analysis
