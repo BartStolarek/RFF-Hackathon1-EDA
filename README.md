@@ -1,3 +1,10 @@
+# Results!
+Group 3 managed to beat Group 4 by one point, well done. Their branch has been merged in to master.
+https://github.com/mjorrico  (813++ 3--)
+https://github.com/cruise69 (828++ 42--)
+![image](https://github.com/user-attachments/assets/52904be9-83fe-4a62-a563-25291ccdd8e0)
+
+
 # 🎧 Spotify EDA Hackathon: Phase 1 - Fundamentals
 
 Welcome to the **Spotify EDA Hackathon**! This is the first challenge in our learning series, and it's all about mastering the **fundamentals** of data exploration. Whether you're new to EDA or already a pro, I'm hoping this challenge will be engaging for you.
