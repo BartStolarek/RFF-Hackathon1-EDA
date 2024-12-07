@@ -1,7 +1,10 @@
 # Results!
 Group 3 managed to beat Group 4 by one point, well done. Their branch has been merged in to master.
-https://github.com/mjorrico  (813++ 3--)
-https://github.com/cruise69 (828++ 42--)
+
+[mjorrico](https://github.com/mjorrico)  (813++ 3--)
+
+[cruise69](https://github.com/cruise69) (828++ 42--)
+
 ![image](https://github.com/user-attachments/assets/52904be9-83fe-4a62-a563-25291ccdd8e0)
 
 
